@@ -1,1 +1,1 @@
-web gunicorp app:app
+web gunicorp -b :$PORT app:app
