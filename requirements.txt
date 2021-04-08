@@ -11,8 +11,6 @@ cryptography==2.8
 cycler==0.10.0
 dbus-python==1.2.16
 decorator==4.4.2
-distro==1.4.0
-dlib
 entrypoints==0.3
 Flask==1.1.2
 future-fstrings==1.2.0
