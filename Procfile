@@ -1,1 +1,1 @@
-python3 main.py
+web gunicorp app:app
