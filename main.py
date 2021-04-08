@@ -36,6 +36,4 @@ def upload_image():
     import convert 
     return render_template('index.html')
      
-if __name__ == "__main__":
-    app.run()
 
