@@ -12,9 +12,9 @@ sys.path.insert(0, './first-order-model/')
 
 from demo import load_checkpoints
 generator, kp_detector = load_checkpoints(config_path='first-order-model/config/vox-256.yaml', 
-                            checkpoint_path='/content/drive/MyDrive/first-order-model-checkpoints/vox-cpk.pth.tar')
-source_image = imageio.imread('/content/drive/MyDrive/Python_Projects/PhotoToVideo-Webapp/static/uploads/source.png')
-reader = imageio.get_reader('/content/drive/MyDrive/Python_Projects/PhotoToVideo-Webapp/static/1.mp4')
+                            checkpoint_path='https://drive.google.com/file/d/1_v_xW1V52gZCZnXgh1Ap_gwA9YVIzUnS/view?usp=sharing')
+source_image = imageio.imread('static/uploads/source.png')
+reader = imageio.get_reader('static/1.mp4')
 
 
 #Resize image and video to 256x256
