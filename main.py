@@ -1,11 +1,9 @@
 import os
 import urllib.request
 from flask import Flask, flash, request, redirect, url_for, render_template
-from flask_ngrok import run_with_ngrok
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
-run_with_ngrok(app) 
 
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
